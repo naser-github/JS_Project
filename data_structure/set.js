@@ -21,3 +21,7 @@ setArr.delete('sandwich');
 
 for(const arr of setArr)
     console.log(arr);
+
+const set_1 = new Set();
+// set_1.add('jonas');
+console.log(set_1);
