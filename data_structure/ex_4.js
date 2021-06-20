@@ -19,7 +19,13 @@ const setArr = new Set();
 for(const [key,value] of gameEvents.entries()){
     setArr.add(value);
 }
-
 const events = [...setArr];
+
 gameEvents.delete(64);
-console.log(gameEvents);
+//console.log(gameEvents);
+
+console.log("Hello");
+
+for(const [key,value] of gameEvents.entries()){
+  console.log((key<45 && `${key} First Half: ${value}`)||`${key} Second Half: ${value}`);
+}
